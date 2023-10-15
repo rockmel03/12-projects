@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    background: linear-gradient(90deg,#30c5d2,#471069);
+}
+
+.container{
+    text-align: center;
+    background-color:#471069;
+    color:#30c5d2;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 8px #000, -2px -2px 8px #fff;
+    margin:1rem;
+}
+
+.container h1{
+    text-transform: uppercase;
+}
+.container .btn{
+    background:#ffffff50;
+    padding: .5rem 1rem;
+    font-size: 2rem;
+    border-radius: .5rem;
+    border:none;
+    margin: 1rem 0;
+    cursor: pointer;
+    filter: grayscale(0);
+    transition: filter .2s ease;
+    transform: scale(1.2);
+    transition: transform .2s ease;
+}
+
+.btn:hover{
+    /* background:#ffffff; */
+    filter: grayscale();
+    transform: scale(1);
+}
+.emoji-name{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color:#c7c7c7
+}
